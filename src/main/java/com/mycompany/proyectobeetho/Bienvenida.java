@@ -5,6 +5,7 @@ package com.mycompany.proyectobeetho;
 import javax.swing.*;
 import java.awt.event.*;
 import java.awt.*;
+import java.net.URL;
 
 public class Bienvenida extends JFrame implements ActionListener{
 	private JTextField textField1;
@@ -22,9 +23,13 @@ public class Bienvenida extends JFrame implements ActionListener{
 	setTitle("Bienvenido");
 	getContentPane().setBackground(new Color(99,29,74)); //tinto//)
         
-	ImageIcon imagen1 = new ImageIcon("C:\\beetho01.jpg");
+        ImageIcon imagen1 = new ImageIcon("src/main/resources/beetho01.jpg");
+        //ImageIcon imagen1 = new ImageIcon(Bienvenida.class.getResource("/src/main/resources/beetho01.jpg"));
+        URL url = Bienvenida.class.getResource("/src/main/resources/beetho01.jpg");
+            System.out.println(url);
+        //ImageIcon imagen1 = new ImageIcon(url);
         
-	ImageIcon imagen2 = new ImageIcon("C:\\icono.png");
+	ImageIcon imagen2 = new ImageIcon("src/main/resources/icono.png");
 	setIconImage(imagen2.getImage());
 
 	label1 = new JLabel(imagen1);

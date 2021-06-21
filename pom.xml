@@ -20,7 +20,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>com.mycompany.proyectoernesto.Bienvenida</mainClass>
+                            <mainClass>com.mycompany.proyectobeetho.Bienvenida</mainClass>
                             <classpathPrefix>dependency-jars/</classpathPrefix>
                         </manifest>
                     </archive>

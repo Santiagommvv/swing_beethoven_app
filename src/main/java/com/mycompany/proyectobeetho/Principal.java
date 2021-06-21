@@ -25,7 +25,7 @@ public class Principal extends JFrame implements ActionListener{
 	setTitle("Asignacion de piezas");
 	getContentPane().setBackground(new Color(99, 29, 74));
 	
-        ImageIcon icono = new ImageIcon("C:\\icono.png");
+        ImageIcon icono = new ImageIcon("src/main/resources/icono.png");
 	setIconImage(icono.getImage());
 	
 	// 		el String con el nombre de usuario
@@ -101,7 +101,7 @@ public class Principal extends JFrame implements ActionListener{
 	menuOpciones.add(miSalir);
 	miSalir.addActionListener(this);
 	
-        ImageIcon logo = new ImageIcon("C:\\beetho03.jpg");
+        ImageIcon logo = new ImageIcon("src/main/resources/beetho03.jpg");
 	labelLogo = new JLabel(logo);
 	labelLogo.setBounds(45,15,174,116);
 	add(labelLogo);

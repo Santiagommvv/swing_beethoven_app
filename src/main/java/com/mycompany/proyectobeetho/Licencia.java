@@ -25,7 +25,7 @@ public class Licencia extends JFrame implements ActionListener, ChangeListener{
 	setTitle("Licencia de uso ");
 
 	//------Icono
-        ImageIcon icono = new ImageIcon("C:\\icono.png");
+        ImageIcon icono = new ImageIcon("src/main/resources/icono.png");
 	setIconImage(icono.getImage());
 	
 	//------usando el nombre de usuario
@@ -79,7 +79,7 @@ public class Licencia extends JFrame implements ActionListener, ChangeListener{
 	add(button2);
 
         //imagen
-        ImageIcon imagen1 = new ImageIcon("C:\\beetho02.jpeg");
+        ImageIcon imagen1 = new ImageIcon("src/main/resources/beetho02.jpeg");
 	label2 = new JLabel(imagen1);
 	label2.setBounds(260,260,305,170);
 	add(label2);
