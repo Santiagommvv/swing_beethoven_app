@@ -6,7 +6,7 @@ Esta aplicación demuestra manejo de eventos en una interfaz gráfica.
 
 Problemas 
 
--(SOLUCIONADO)No se ha podido referenciar de manera exitosa 
+-SOLUCIONADONo se ha podido referenciar de manera exitosa 
  la ubicación de los recursos (imágenes) desde src/main/resources, 
 
 -El .jar resultante tiene problemas para cargar las imágenes en otro equipo
